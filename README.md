@@ -18,8 +18,8 @@ This project focuses on generating music using an LSTM network trained on MIDI f
 ## Project Structure
 
 The project has the following structure:
-    ```bash
-    music-generation-project/
+    ```
+    music-generation-project/ 
     ├── Data/
     │ ├── schubert/
     │ │ ├── music1.mid
@@ -39,6 +39,7 @@ The project has the following structure:
     ├── requirements.txt
     ├── model_file.h5
     └── pred_music.mid
+    ```
 
 - The `Data/` directory contains the MIDI files used for training and generating music.
 - The `model/` directory includes the model implementation and related functions.
