@@ -3,3 +3,4 @@ numpy
 pandas
 music21
 scikit-learn
+mido

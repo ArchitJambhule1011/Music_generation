@@ -16,7 +16,10 @@ def train_and_save_model(x_train, y_train, x_test, y_test, note2ind):
     model.fit(x_train, y_train,
               batch_size=128,
               epochs=1,
+              verbose=2,
               validation_data=(x_test, y_test))
     
-    model.save('model_file.h5')
+    model.save('model.h5')
+
+    
 

@@ -18,28 +18,6 @@ This project focuses on generating music using an LSTM network trained on MIDI f
 ## Project Structure
 
 The project has the following structure:
-    ```
-    music-generation-project/ 
-    ├── Data/
-    │ ├── schubert/
-    │ │ ├── music1.mid
-    │ │ ├── music2.mid
-    │ │ └── ...
-    │ └── Notebooks/eda
-    ├── model/
-    │ ├── model.py
-    │ └── ...
-    ├── src/
-    │ ├── data_ingestion.py
-    │ ├── data_preprocess.py
-    │ ├── result_interpretation.py
-    │ └── ...
-    ├── README.md
-    ├── .gitignore
-    ├── requirements.txt
-    ├── model_file.h5
-    └── pred_music.mid
-    ```
 
 - The `Data/` directory contains the MIDI files used for training and generating music.
 - The `model/` directory includes the model implementation and related functions.
@@ -47,19 +25,11 @@ The project has the following structure:
 - The `requirements.txt` file lists the project dependencies.
 - The `model_file.h5` file stores the trained model.
 - The `pred_music.mid` file is the generated music pattern.
-- The Notebooks folder contains the eda in a .py format, please convert it to an ipynb format for detailed        explaination
 
-### Data Preprocessing
 
-To preprocess the MIDI files and prepare the data for training, use the `data_preprocess.py` script located in the `src/` directory. 
+### Usage
 
-### Training the Model
-
-To train the model on the preprocessed data, use the model script located in the model directory. This script creates a sequential LSTM model, compiles it, and trains it on the data.
-
-### Generating Music
-
-To generate music using the trained model, use the result_interpretation.py script located in the src/ directory.
+Run the main.py file to listen to the music composed by the LSTM model.
 
 ## Contributing
 
